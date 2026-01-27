@@ -35,6 +35,13 @@
   border: 2px solid #bd2e95;
    font-size: 13px;
 }
+.badgePillone
+{
+  --bs-badge-color: white !important;
+  border: 2px solid #bd2e95;
+  background-color: #bd2e95;
+   font-size: 13px;
+}
 .dark-background {
   --background-color: #060606;
   --default-color: #060606;
@@ -1452,6 +1459,3 @@ section,
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
-}
