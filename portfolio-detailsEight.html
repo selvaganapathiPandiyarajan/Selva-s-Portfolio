@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Hosipital Management</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: MyResume
+  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
+  * Updated: Jun 29 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="portfolio-details-page">
+
+  <header id="header" class="header d-flex flex-column justify-content-center">
+
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+ 
+
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title" data-aos="fade">
+      <div class="container">
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Hosipital Management</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section">
+
+      <div class="container" data-aos="fade-up">
+
+        <div class="portfolio-details-slider swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 1000,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "navigation": {
+                "nextEl": ".swiper-button-next",
+                "prevEl": ".swiper-button-prev"
+              },
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+         
+            <div class="swiper-slide">
+              <img src="assets/img/2.png"  alt="" height="700">
+            </div>
+      
+           
+             
+       
+        
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+        <div class="row justify-content-between gy-4 mt-4">
+
+          <div class="col-lg-8" data-aos="fade-up">
+            <div class="portfolio-description">
+              <h2>Project Descripition</h2>
+              <p>
+                <span style="color:#810081;font-weight: bold;">Auth Service
+:</span>
+<p>
+The Auth Service is responsible for securing the system by managing user authentication and authorization. It handles user login and registration, generates and validates JWT tokens, and enforces role-based access control for different users such as Admin, Doctor, and Receptionist. This service ensures that only authorized users can access protected resources across all microservices</p>
+  <span style="color:#810081;font-weight: bold;">Doctor Service</span>
+  <p>
+The Doctor Service manages all doctor-related information, including profiles, department details, specialization, contact information, and availability schedules. It provides necessary doctor data to other services like Appointment and Receptionist services, enabling efficient appointment scheduling and hospital staff management.   <p>
+            <span style="color:#810081;font-weight: bold;">Patient Service</span>
+<p>The Patient Service stores and manages patient information such as personal details, medical history, and visit records. It serves as the central source for patient data, supporting appointment scheduling, treatment tracking, and operational workflows across the hospital system.</p>
+            <span style="color:#810081;font-weight: bold;">Appointment Service:</span>
+
+<p>The Appointment Service handles appointment booking, updating, and cancellation processes. It coordinates between patient and doctor services to ensure proper scheduling while avoiding time conflicts. This service enables efficient management of patient visits and improves hospital workflow efficiency.</p>
+            <span style="color:#810081;font-weight: bold;">Receptionist Service:</span>
+
+<p>The Receptionist Service supports front-desk operations by managing patient registration and appointment coordination. It acts as an operational interface that allows hospital staff to interact with patient, doctor, and appointment services, ensuring smooth daily hospital operations.</p>
+
+ <span style="color:#810081;font-weight: bold;">Salary Processing:</span>
+
+<p>The Salary Processing Service automates monthly salary calculations for doctors and staff using Spring Batch and scheduled cron jobs. It calculates payroll components such as allowances, deductions, and net salary, reducing manual effort and ensuring accurate salary processing.</p>
+
+</div>
+          </div>
+
+          <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="portfolio-info">
+              <h3>Project information</h3>
+        
+                  <ul>
+                <li><strong>Backend</strong> Java,Spring Boot,JPA</li>
+                <li><a href="https://github.com/selvaganapathiPandiyarajan/HosipitalManagement-APi/tree/main"  target="_blank" class="btn-visit align-self-start">Visit GitHub</a></li>
+              </ul>
+                  <ul>
+                <li><strong>Database</strong> PostgreSQL,mySQL</li>
+                <li><strong>Microservices</strong> REST template,Foeign,Kafka</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Details Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+    <div class="container">
+   
+      <div class="container">
+        <div class="copyright">
+          <span>Copyright</span> <strong class="px-1 sitename">@selva</strong> <span></span>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
